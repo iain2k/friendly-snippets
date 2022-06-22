@@ -11,7 +11,8 @@
           "markdown",
           "tex",
           "html",
-          "global"
+          "global",
+          "all"
         ],
         "path": "./snippets/global.json"
       },
@@ -44,6 +45,10 @@
       {
         "language": "eruby",
         "path": "./snippets/erb.json"
+      },
+      {
+        "language": "erlang",
+        "path": "./snippets/erlang.json"
       },
       {
         "language": "elixir",
@@ -149,6 +154,10 @@
         "path": "./snippets/java.json"
       },
       {
+        "language": "julia",
+        "path": "./snippets/julia.json"
+      },
+      {
         "language": [
           "html",
           "jade",
@@ -241,7 +250,7 @@
       },
       {
         "language": "django",
-        "path": "./snippets/frameworks/django/imports.json"
+        "path": "./snippets/frameworks/django/admin.json"
       },
       {
         "language": "django",
@@ -253,11 +262,27 @@
       },
       {
         "language": "django",
-        "path": "./snippets/frameworks/django/views.json"
+        "path": "./snippets/frameworks/django/tags.json"
       },
       {
         "language": "django",
-        "path": "./snippets/frameworks/django/filetemplates.json"
+        "path": "./snippets/frameworks/django/urls.json"
+      },
+      {
+        "language": "django",
+        "path": "./snippets/frameworks/django/views.json"
+      },
+      {
+        "language": "djangohtml",
+        "path": "./snippets/frameworks/djangohtml.json"
+      },
+      {
+        "language": "django-rest",
+        "path": "./snippets/frameworks/django/django_rest/serializers.json"
+      },
+      {
+        "language": "django-rest",
+        "path": "./snippets/frameworks/django/django_rest/views.json"
       },
       {
         "language": "flutter",
@@ -335,6 +360,22 @@
       {
         "language": "yaml",
         "path": "./snippets/kubernetes.json"
+      },
+      {
+        "language": "make",
+        "path": "./snippets/make.json"
+      },
+      {
+        "language": "dart",
+        "path": "./snippets/dart.json"
+      },
+      {
+        "language": "objc",
+        "path": "./snippets/objc.json"
+      },
+      {
+        "language": "unreal",
+        "path": "./snippets/frameworks/unreal.json"
       }
     ]
   }
