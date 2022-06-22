@@ -118,5 +118,17 @@
     "prefix": "mark/markdown",
     "body": "# %% [markdown]",
     "description": "Code snippet to add a new markdown cell"
-  }
+  },
+  "Python Boilderplate": {
+		"prefix": "python",
+		"body": [
+			"#!/usr/bin/env ${1:python3}",
+			"# -*- coding: utf-8 -*-",
+			"",
+			"\"\"\" ${2:doc-string} \"\"\"",
+			"",
+			"${3}"
+		],
+		"description": "Python script boiler-plate header"
+	}
 }
